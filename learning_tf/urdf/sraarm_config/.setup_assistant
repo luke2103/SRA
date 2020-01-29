@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: learning_tf
+    relative_path: urdf/maniassem.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/maniassem.srdf
+  CONFIG:
+    author_name: Lukesh
+    author_email: lukeshankamwar21@gmail.com
+    generated_timestamp: 1579698896
